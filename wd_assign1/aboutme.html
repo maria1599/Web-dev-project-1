@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--this is the head of this html document-->
+<head>
+	<title>About me</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="Web Development assignment 1" />
+	<meta name="keywords" content="HTML and CSS" />
+	<meta name="author" content="Maria Serrano s102119458" />
+	<!--below are links used to style all html documents-->
+	<link href="style/desktop.css" rel="stylesheet" media="screen and (min-width:768px)" type="text/css" />
+	<link href="style/mobile.css" rel="stylesheet" media="screen and (max-width:768px)" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<!--body includes the entire content of this html file-->
+<body>
+
+<!--header and nav are used in background.html, aboutme.html, and timetable.html-->
+	<header>
+		<h1>Maria Serrano</h1>
+	</header>
+
+	<nav><!--this is the navigation bar with links of all three main webpages-->
+		<a href="Background.html" class="links">Home</a>&nbsp;
+		<a href="aboutme.html" class="links">More about me</a>&nbsp;
+		<a href="timetable.html" class="links">Uni Timetable</a>&nbsp;
+		<a href="animations.html" class="links"> CSS Animation</a>
+	</nav>
+
+	<hr/><!--this is a horizontal line-->
+	<br/><!--this is a breakline-->
+
+<!--this is the main article of this page-->
+	<main>
+
+		<!--this is the article within the main-->
+		<article>
+			<!--this h2 contains id for styling-->
+			<h2 id="articleh">Get to know me more..</h2>
+
+			<!--this is the heading for this first paragraph-->
+			<h3>My Life's Greatest Achievement So Far</h3>
+
+			<!--this is a paragraph with class selector-->
+			<p class="paragraphs">Late 2017, I finished my 13 years of schooling. I graduated Year 12; the final year of High School, in which I see as a milestone in my life. I've cherished those 13 years of my life where I learnt many life lessons and learnt things about myself. The last year of my high school is pretty extra-ordinary for me, I have gained valuable experiences, and made many fun and loving memories with my close friends and family.</p>
+			
+			<p>The following images are most of the peolpe who are important to me:</p>
+
+				<figure><!--this is figure one- val photo 1-->
+
+					<br/><!--this is a breakline for the image-->
+					<img src="images/IMG_4784.JPG" alt="val with parents" id="valp">
+					<br/><!--this is a breakline for the image-->
+
+					<!--this is the caption for this image-->
+					<figcaption>Me with my parents at my Year 12's Valedictory dinner (2017)</figcaption>
+				</figure>
+
+				<figure><!--this is figure 2- val photo with friends-->
+					<img src="images/valphoto.JPG" alt="val with my close friends" id="valwf">
+
+					<!--this is the caption for this image-->
+					<figcaption>Me with my friends (people I've grew up with through High School) at Year 12's Valedictory dinner (2017)</figcaption>
+				</figure>
+
+			<hr/><!--this is a horizontal line-->
+
+			<!--this is the title of the next part of information in this webpage-->
+			<h3>List of my Favourite Things</h3>
+
+			<!--this is a paragraph with ordered lists nested in-->
+			<p class="list">Top 5 fav Movies and TV Shows</p>
+				<ol>
+					<li>Game of Thrones</li>
+					<li>Shawshank Redemption</li>
+					<li>Stranger Things</li>
+					<li>The Notebook</li>
+					<li>To all the Boy's I've Loved Before</li>
+				</ol>
+			<!--this is a paragraph with ordered lists nested in-->
+			<p class="list">Top 5 current favourite artists</p>
+				<ol>
+					<li>Kanye West</li>
+					<li>SZA</li>
+					<li>Daniel Caesar</li>
+					<li>Sabrina Claudio</li>
+					<li>Amine</li>
+				</ol>
+			
+			<!--this is a paragraph with unordered list nested in-->
+			<p class="list">Current favourite video game</p>
+				<ul id="gamelist">
+					<li>Terraria</li>
+				</ul>
+		</article>
+	</main>
+
+	<!--aside includes the resources used + the link for the entry from page- this is in background.html and aboutme.html only-->
+	<aside>
+		<h4 class="aside">Resources used in these webpages</h4>
+		<p class="aside">The following links are images in which I sourced from the internet</p>
+		<ul><!--this is the link of two photos used saved in my laptop-->
+			<li><a href="https://insidestory.org.au/about/">Swinburne University Logo</a></li>
+			<li><a href="http://travelsfinders.com/wp-content/uploads/2016/07/philippines-manila.jpg">Philippine Map</a></li>
+		</ul>
+		<p class="aside">Orignial photos used are of the following</p>
+		<ul><!--this is an unordered list of all original photos used-->
+			<li>Val photo 1</li>
+			<li>Val photo 2</li>
+			<li>Family photo</li>
+		</ul>
+
+		<!--this h4 includes an unordered list nested- brings users back to the entry form page-->
+		<h4 class="aside">Entry Form Page used</h4>
+			<ul>
+				<li><a href="entry.html">Entry From Page</a></li>
+			</ul>
+	</aside>
+
+	<!--this is the footer of this webpage- this is in all 3 main webpages-->
+	<footer>All works are done by Maria Serrano; the author of these webpages. 2018.</footer>
+
+</body>
+</html>

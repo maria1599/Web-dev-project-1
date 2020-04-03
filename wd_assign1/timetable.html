@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--this is the head of this html document-->
+	<title>Weekly Academic Timetable</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="Web Development assignment 1" />
+	<meta name="keywords" content="HTML and CSS" />
+	<meta name="author" content="Maria Serrano s102119458" />
+	<!--below are links used to style all html documents-->
+	<link href="style/desktop.css" rel="stylesheet" media="screen and (min-width:768px)" type="text/css" />
+	<link href="style/mobile.css" rel="stylesheet" media="screen and (max-width:768px)" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<!--body includes the entire content of this html file-->
+<body>
+	<!--header and nav are used in background.html, aboutme.html, and timetable.html-->
+	<header> 
+		<h1>Maria Serrano</h1>
+	</header>
+	<nav><!--this is the navigation bar with links of all three main webpages-->
+		<a href="Background.html" class="links">Home</a>&nbsp;
+		<a href="aboutme.html" class="links">More about me</a>&nbsp;
+		<a href="timetable.html" class="links">Uni Timetable</a>&nbsp;
+		<a href="animations.html" class="links"> CSS Animation</a>
+	</nav>
+
+	<hr/><!--this is a horizontal line-->
+	<br/><!--this is a break line-->
+
+	<!--this is a paragraph with an id for styling-->
+		<p id="timep">This is my weekly academic timetable at Swinburne University of Technology.</p>
+	<!--this is an image of Swinburne University logo-->
+	 <img src="images/swinlogo.png" alt="logo" id="swinburnelogo">
+
+	 <br/><!--this is another break line-->
+	 <!--this is a div for the table-->
+	<div id="table">
+
+	<table><!--this table contains my weekly academic schedule-->
+		<tr>
+		<!--this is the first table heading-->
+			<th colspan="5" id="topheading"><strong>Weekly Academic Timetable</strong></th>
+		</tr>
+		<tr><!--this is the second table heading with the weekdays label in it-->
+			<th>Monday</th>
+			<th>Tuesday</th>
+			<th>Wednesday</th>
+			<th>Thursday</th>
+			<th>Friday</th>
+		</tr>
+		<tr><!--this is the first row-->
+			<td>8:30am-9:30am Problem Solving with ICT Lecture</td>
+			<td>8:30am-10:30am Problem Solving with ICT Workshop</td>
+			<td>8:30am-10:30am Web Development Lecture</td>
+			<td>---</td>
+			<td>---</td>
+		</tr>
+		<tr><!--this is the second row-->
+			<td>12:30pm-2:30pm Database analysis and design Lecture</td>
+			<td>10:30am-12:30pm Database analysis and design Lab</td>
+			<td>12:30pm-1:30pm Web Development Lab</td>
+			<td>---</td>
+			<td>---</td>
+		</tr>
+		<tr><!--this is the third row-->
+			<td>2:30pm-4:30pm Business Information Systems Lecture</td>
+			<td>---</td>
+			<td>2:30pm-4:30pm Business Information Systems Lab</td>
+			<td>---</td>
+			<td>---</td>
+		</tr>
+	</table>
+	</div>
+	<hr/><!--this is anohter horizontal line-->
+
+	<!--this is the footer of this webpage- this is in all 3 main webpages-->
+	<footer>All works are done by Maria Serrano; the author of these webpages. 2018.</footer>
+</body>
+</html>
