@@ -1,0 +1,80 @@
+body{
+	background-color: #F69680;
+	color: #2E1263;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 200;
+}
+nav{
+	letter-spacing: 10px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+nav a{
+	text-decoration: none;
+	text-align: center;
+	width: 8em;
+	font-size: 1em;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #2E1263;
+}
+.current{
+	background-color: #2E1263;
+	color:  #F69680;
+}
+
+h1{
+	padding: 20px 25px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+	font-size: 60px;
+}
+
+h2{
+	padding: 25px 25px;
+	margin: 40px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	text-align: center;
+	font-size: 1em;
+}
+
+img{
+	height: 700px;
+}
+img:hover{
+	filter: grayscale(1);
+	transition: 0.6s;
+}
+
+#container{ 
+	flex-direction: column;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+button {
+	background-color: #F69680;
+	margin: 30px auto 0;
+	padding: 20px 25px;
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid #2E1263;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	text-decoration: none;
+	outline: none; 
+}
+button:hover {
+	transition: 0.3s;
+	background-color: #2E1263;
+	color: #F69680;
+
+}
+p{
+	font-size: 20px;
+}
