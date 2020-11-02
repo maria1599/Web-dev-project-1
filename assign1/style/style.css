@@ -1,0 +1,96 @@
+body { /*this is the style for the body of all html pages*/
+	background-color: #cde481;
+	color: #2E1263;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 200;
+	padding: 20px;
+	max-width: 900px;
+	width: 100%;
+	margin: 10px auto;
+	border: 15px solid #2E1263;
+}
+
+
+nav { /*this is the style for the navigation links of all html pages*/
+	letter-spacing: 5px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+nav a{ /*this style is for the links of all html pages*/
+	text-decoration: none;
+	text-align: center;
+	width: 5em;
+	font-size: 0.8em;
+	margin: 20px;
+	padding: 16px;
+	border: 1px solid #2E1263;
+}
+
+.current { /*this is a class style for links in a current page*/
+	background-color: #2E1263;
+	color: #cde481;
+}
+h1 { /*this is the style for the h1 header*/
+	padding: 20px 25px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+	font-size: 60px;
+}
+
+h2{ /*style for all h2s on all the html webpages*/
+	text-align: center;
+	color: #2E1263;
+	padding: 25px 25px;
+	margin: 40px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 1.5em;
+
+}
+main { /*this is the style for the main of all html/php pages*/
+	padding: 2em;
+	border: 20em;
+	margin: 40px;
+	background-color: #FAF9F9;
+	border: 5px solid #2E1263;
+}
+
+form{ /*this is the style of the form jobpost and jobsearch html pages*/
+	padding: 20px 20px;
+	max-width: 800px;
+	width: 100%;
+	margin: 90px auto;
+	background-color:#FAF9F9;
+	border:5px solid #2E1263;	
+}
+input[type=text] { /*this is the style for the input type=text in both job search and post forms*/
+    width: 50%;
+    padding: 4px 7px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0.5px solid #2E1263;
+    border-radius: 1px;
+    box-sizing: border-box;
+}
+select { /*this style applies to all the select options in jobpostform.html*/
+    width: 20%;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+textarea{ /*this is the style of the text box in the job postform webpage*/
+	width: 90%;
+}
+input[type="radio"] {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+}
+label { /*this style applies to the labels within the forms in order and register webpages*/
+    padding: 10px 12px 12px 10px;
+    display: inline-block;
+}
